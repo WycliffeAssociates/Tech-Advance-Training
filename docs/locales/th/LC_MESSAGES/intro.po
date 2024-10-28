@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Door43
+# This file is distributed under the same license as the BTT Recorder
+# Information package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: BTT Recorder Information 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-28 17:12-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: th\n"
+"Language-Team: th <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../intro.rst:2
+msgid "= What is a Volunteer Technical Missionary to the Nations? ="
+msgstr ""
+
+#: ../../intro.rst:5
+msgid ""
+"A Tech Advance volunteer technician assists Christians around the world "
+"to translate the Bible into their own languages."
+msgstr ""
+
+#: ../../intro.rst:8
+msgid ""
+"# '''We are technicians. '''That means that we need to understand the "
+"tools we will be using to help. # '''We are volunteers. '''That means "
+"that we are not paid for our work. Like the translators, we receive food,"
+" lodging, and money for transportation when we are asked to travel for "
+"the work. # '''We are sent to the nations. '''That means that we will be "
+"serving people who are different than us. They will have different "
+"customs and eat different food. We will be humble and respectful of them,"
+" since they are also God’s children."
+msgstr ""
+
+#: ../../intro.rst:16
+msgid ""
+"<div style=\"text-align:center;\">[[Image:Image1 Copy 1.png]]Lab 1: Are "
+"You a Volunteer Technical Missionary to the Nations?</div># Do you want "
+"to be paid for what you do for Bible Translation? # Will you be satisfied"
+" when your language has the Bible, or do you want to make translation "
+"available for others, too? # Do you have the technical skills needed to "
+"help? # If you answered “No” to question 3, are you willing to put in the"
+" time and energy to learn those skills? # Are you able to put others "
+"first, even if you think they are doing something the hard way?"
+msgstr ""
+
+#: ../../intro.rst:24
+msgid "= [[Image:Image1 Copy 1 Copy 1.png]]Tech Advance ="
+msgstr ""
+
+#: ../../intro.rst:26
+msgid ""
+"Tech Advance is part of the Information Technology branch of Wycliffe "
+"Associates. Rather than having our own purpose, we exist to serve and "
+"support the other parts of Wycliffe Associates that are assisting "
+"translation."
+msgstr ""
+
+#: ../../intro.rst:28
+msgid ""
+"Certainly, we have our own goals and policies. We have our own leaders, "
+"and our own guidelines. But our overall purpose is to make it easier for "
+"those who are doing translation. '''We are a team.'''"
+msgstr ""
+
+#: ../../intro.rst:30
+msgid "== The Tech Advance Team =="
+msgstr ""
+
+#: ../../intro.rst:32
+msgid ""
+"All of Tech Advance makes one team. There is not a US team and an African"
+" team and a Pacific team."
+msgstr ""
+
+#: ../../intro.rst:34
+msgid ""
+"Each of us has different strengths and abilities, and some of us have "
+"been working in this kind of work for a very long time, while others have"
+" only just begun."
+msgstr ""
+
+#: ../../intro.rst:36
+msgid ""
+"Some of us are also gifted with different languages, while some of us "
+"struggle to be understood even in our own language."
+msgstr ""
+
+#: ../../intro.rst:38
+msgid ""
+"All of us live by what God in His grace provides for us. For some, that "
+"is a business that runs while we are away. For others, we depend upon "
+"family members to pay our bills while we work for the kingdom. Still "
+"others ask friends at their churches to help support them in their work."
+msgstr ""
+
+#: ../../intro.rst:40
+msgid ""
+"<div style=\"text-align:center;\">[[Image:Image1 Copy 1 Copy 1 Copy "
+"1.png]]Lab 2: Who is Tech Advance?</div># If a member of Tech Advance "
+"finds a good way to do something, what should that member do? # How many "
+"different teams are there in Tech Advance? # Do all members of Tech "
+"Advance have the same skills?"
+msgstr ""
+
+#: ../../intro.rst:46
+msgid "= [[Image:Image1 Copy 1 Copy 1 Copy 1 Copy 1.png]]Communication ="
+msgstr ""
+
+#: ../../intro.rst:48
+msgid ""
+"<div style=\"text-align:center;\">[[Image:Shape2.png]][[Image:SVG "
+"4.png]][[Image:SVG 6.png]][[Image:Shape1.png|left|middle]][[Image:Imagen "
+"1.png|middle]][[Image:SVG 7.png|middle]][[Image:SVG 2.png]]<ref "
+"name=\"ftn1\"><div style=\"text-align:center;margin-"
+"left:0.2362in;\">Telegram icon by Icons8</div></ref></div>"
+msgstr ""
+
+#: ../../intro.rst:51
+msgid ""
+"The best way to communicate with us is by email.# <span "
+"style=\"color:#000000;\">You can ask questions and report problems "
+"to</span><span style=\"color:#000000;\"> "
+"</span>[mailto:helpdesk@techadvancement.com helpdesk@techadvancement.com]"
+" # <span style=\"color:#000000;\">If text messaging is more your speed, "
+"you can contact </span><span style=\"color:#000000;\">us on </span><span "
+"style=\"color:#000000;\">Telegram</span><span style=\"color:#000000;\">. "
+"</span>[https://t.me/joinchat/Gkxa1q-oHBEYEjPQ https://t.me/joinchat"
+"/Gkxa1q-oHBEYEjPQ] # <span style=\"color:#000000;\">We have help "
+"articles, links, and more at our website:</span><span "
+"style=\"color:#000000;\"> </span>[https://techadvancement.com/ "
+"https://techadvancement.com]"
+msgstr ""
+
+#: ../../intro.rst:57
+msgid ""
+"<div style=\"text-align:center;\">[[Image:Image1 Copy 1 Copy 1 Copy 1 "
+"Copy 1 Copy 1.png]]Lab 3: How should you communicate with Tech "
+"Advance?</div># Where can you find articles and links? # What is the "
+"''best'' way to contact us? # What can you do if text messaging works "
+"better than email for you?"
+msgstr ""
+
