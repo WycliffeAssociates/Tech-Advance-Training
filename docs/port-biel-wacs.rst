@@ -59,8 +59,6 @@ Lab 3: WACS Lab 2
 	
     2. What do you do to create an account on WACS?
 	
-	
-	
 WACS Username and Password
 **************************
 The Username will be included with anything you upload to WACS, and also anything edited in BTT-Writer while you are logged in. If you need to hide your name, make sure to use a pseudonym1. A pseudonym is just a nick-name or fake name that will identify you to your team members, but not to people outside.
@@ -97,6 +95,7 @@ You can still read a project using the read mode on BIEL if you locate the proje
 
 Lab 5: WACS – PORT – BIEL
 =========================
+
     1. Which website receives uploads from BTT-Writer?
         1. WACS
         2. PORT
