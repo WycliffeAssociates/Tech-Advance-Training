@@ -68,6 +68,7 @@ You do need a valid email address, because you will receive an email to authoriz
 The password must be a safe one: complex enough to be difficult to guess.
 
 Password complexity:
+++++++++++++++++++++
     • 6 characters
     • At least one uppercase character (A..Z)
     • At least one lowercase character (a..z)
@@ -116,7 +117,7 @@ Lab 5: WACS – PORT – BIEL
         1. WACS
         2. PORT
         3. BIEL
-        4. 
+
 Other Websites
 ##############
 https://techadvancement.com is the help site for Tech Advance, where you can find forms, links, and information for getting on our social media.
