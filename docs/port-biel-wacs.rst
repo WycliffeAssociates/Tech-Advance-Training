@@ -1,5 +1,5 @@
 PORT ↔ BIEL ↔ WACS
-==================
+##################
 
 There are three websites or Internet services used with our translation tools. The acronyms, or short forms, of these sites are PORT, BIEL, and WACS.
 PORT
@@ -8,7 +8,7 @@ Accounts on PORT are created by account managers in WA. There is no way to creat
 It is not something used by most technicians. When a translation project is created in PORT, it is assigned a language code, and the manager is able to track progress on the project.
 
 BIEL
-====
+****
 Bible In Every Language (BIEL) is a website where uploaded Bible translations can be read, or downloaded to read or print offline. You can even download an app version of a project to read on your smart phone. 
 No account is needed or available for BIEL.
 Not all projects on WACS show on BIEL. The manager determines which ones show by making settings changes in PORT.
@@ -22,7 +22,7 @@ Lab: 1 PORT and BIEL
     4. If you need an account for BIEL, who should you speak to?
 	
 WACS
-====
+****
 The Wycliffe Associates Content Server is where translation projects are sent for safe-keeping (and to appear on BIEL).
 Anyone can open an account on WACS, but you do need to have a valid email address, and you will need to be able to check your email while you are creating an account on WACS.
 
@@ -38,13 +38,12 @@ Lab 2: WACS Lab 1
 	
     2. Why do we upload projects to WACS?
 	
-	
     3. Can you have a WACS account if you don’t have an email address?
 	 
     4. Who can have an account on WACS?
 	
 WACS
-====
+****
 An account for WACS can be created by going to https://content.bibletranslationtools.org, or by clicking on Create a Server Account in BTT-Writer.
 This will use your Internet connection. It uses a small amount of data,
 and connects to bibletranslationtools.org. If it is dangerous for you to
@@ -53,7 +52,9 @@ this step.
 
 Whether you click on the button in BTT-Writer, or go to the website, you will find yourself on the page shown above and to the right.
 When you click Register, you will be taken to a page where you will need to choose a username and password.
+
 Lab 3: WACS Lab 2
+=================
     1. What can you do to protect yourself if you want to connect to WACS from a restricted country?
 	
     2. What do you do to create an account on WACS?
@@ -61,7 +62,7 @@ Lab 3: WACS Lab 2
 	
 	
 WACS Username and Password
-==========================
+**************************
 The Username will be included with anything you upload to WACS, and also anything edited in BTT-Writer while you are logged in. If you need to hide your name, make sure to use a pseudonym1. A pseudonym is just a nick-name or fake name that will identify you to your team members, but not to people outside.
 You do need a valid email address, because you will receive an email to authorize creation of the account. Only one account can be created on WACS for each email address.
 The password must be a safe one: complex enough to be difficult to guess.
@@ -86,7 +87,7 @@ Lab 4: WACS Lab 3
 	 
 
 WACS ↔ PORT ↔ BIEL
-==================
+##################
 How do these three websites interact?
 Language codes come from PORT. Project Managers should make sure that a project is correctly configured in PORT before starting the project.
 BTT-Writer can upload and download projects to and from WACS. PORT monitors these uploads, and a Manager says which uploads are active, meaning they come from the translation project, and which one upload is primary. Only the Primary upload is considered with reference to how complete a project is.
@@ -117,7 +118,7 @@ Lab 5: WACS – PORT – BIEL
         3. BIEL
         4. 
 Other Websites
-==============
+##############
 https://techadvancement.com is the help site for Tech Advance, where you can find forms, links, and information for getting on our social media.
 An account is not needed for TechAdvancement.
 
@@ -125,11 +126,11 @@ https://github.com is a site for software developers to share the code for their
 You can download the latest version of, for example, BTT-Writer for Desktop computers by going to https://github.com/bible-translation-tools/BTT-Writer-Desktop/releases/latest
 
 If you don’t remember where the downloads for our programs are, you can always go to https://basictranslationtools.org and find an up-to-date link for the downloads.
+
 Lab 6: Other Websites
+=====================
     1. Which website holds the source code for our programs?
 	 
     2. Which program will help you find information about our tools and communication channels?
 	
     3. Which website has links to download the latest version of our programs?
-	
-	
