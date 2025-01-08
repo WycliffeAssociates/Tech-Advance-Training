@@ -130,6 +130,7 @@ If you don’t remember where the downloads for our programs are, you can always
 
 Lab 6: Other Websites
 =====================
+
     1. Which website holds the source code for our programs?
 	 
     2. Which program will help you find information about our tools and communication channels?
