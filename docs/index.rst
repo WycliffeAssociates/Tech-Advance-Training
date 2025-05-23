@@ -17,6 +17,7 @@ Contents:
    WACS
    WACS2
    WACS Username and Password
+   Using WACS
    WACS ↔ PORT ↔ BIEL
    Other Websites
    BTT-Writer
