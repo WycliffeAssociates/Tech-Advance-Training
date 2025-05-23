@@ -44,7 +44,6 @@ Contents:
    A Final Word About Language Codes
    Creating a Project
    Selecting a Source
-   Important Agreements - CC BY-SA
    Import from Server
    Import Project File
    Project Already Exists
@@ -71,7 +70,7 @@ Contents:
    How Can I Search for a Character?
    Typing Unicode Characters
    Espanso
-   Manual/Fonts
+   Fonts
    Web Fonts and Translation
    Scripture Accessibility
    Scripture Accessibility - Creative Commons License
