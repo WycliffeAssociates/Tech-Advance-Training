@@ -23,12 +23,16 @@ version of a project to read on your smart phone.
 No account is needed or available for BIEL.
 
 Not all projects on WACS show on BIEL. The manager determines which ones
-show by making settings changes in PORT. ### Lab: 4 PORT and BIEL 1.
-Should you have an account for PORT?
-\________________________________________________________\_ 2. If you
-need an account for PORT, who should you speak to?
-\________________________________________________________\_ 3. Do you
-need an account for BIEL?
-\________________________________________________________\_ 4. If you
-need an account for BIEL, who should you speak to?
+show by making settings changes in PORT.
+
+=======================
+Lab: 4 PORT and BIEL
+=======================
+1. Should you have an account for PORT?
+\________________________________________________________\_
+2. If you need an account for PORT, to whom should you speak?
+\________________________________________________________\_
+3. Do you need an account for BIEL?
+\________________________________________________________\_
+4. If you need an account for BIEL, to whom should you speak?
 \________________________________________________________\_
