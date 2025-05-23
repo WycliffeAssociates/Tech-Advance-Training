@@ -12,14 +12,16 @@ BIEL
 Bible In Every Language (BIEL) is a website where uploaded Bible translations can be read, or downloaded to read or print offline. You can even download an app version of a project to read on your smart phone. 
 No account is needed or available for BIEL.
 Not all projects on WACS show on BIEL. The manager determines which ones show by making settings changes in PORT.
+
 Lab: 1 PORT and BIEL
+====================
     1. Should you have an account for PORT?
 	 
-    2. If you need an account for PORT, who should you speak to?
+    2. If you need an account for PORT, to whom should you speak?
 	 
     3. Do you need an account for BIEL?
 	
-    4. If you need an account for BIEL, who should you speak to?
+    4. If you need an account for BIEL, to whom should you speak?
 	
 WACS
 ****
