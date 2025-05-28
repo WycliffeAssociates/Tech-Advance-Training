@@ -10,16 +10,6 @@ Contents:
    
    intro
    port-biel-wacs
-   What is a Volunteer Technical Missionary to the Nations?
-   Tech Advance
-   Communication
-   PORT ↔ BIEL ↔ WACS
-   WACS
-   WACS2
-   WACS Username and Password
-   Using WACS
-   WACS ↔ PORT ↔ BIEL
-   Other Websites
    BTT-Writer
    Getting BTT-Writer
    Installing BTT-Writer for Android
