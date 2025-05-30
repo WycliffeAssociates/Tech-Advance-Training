@@ -6,29 +6,12 @@ This site is the official training material for Tech Advance field techs.
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 6
    
    intro
    port-biel-wacs
-   BTT-Writer
-   Getting BTT-Writer
-   Installing BTT-Writer for Android
-   Updates to BTT-Writer
    Paying for Software
-   How Do I Get Help to Use BTT-Writer?
-   “Logging In” to BTT-Writer
-   Important Agreements - CC BY-SA
-   Important Agreements - Translation Guidelines
-   Important Agreements - Statement of Faith
-   BTT-Writer Home Screen
-   Hamburger Menu (3 Dots)
-   Hamburger Menu, Part 2
-   Update
-   Updating Sources
-   Updating Sources, Part 2
-   Updating Target Languages
-   Download New index.sqlite
-   BTT-Writer Settings, Part 1
+   BTT-Writer
    Settings, Part 2
    Settings, Part 3
    A Final Word About Language Codes

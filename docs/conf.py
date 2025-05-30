@@ -31,7 +31,8 @@
 # ones.
 extensions = [
              'sphinx.ext.autosectionlabel',
-             'sphinx_rtd_theme'
+             'sphinx_rtd_theme',
+             'sphinx_fontawesome'
              ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -124,8 +125,10 @@ todo_include_todos = False
 #
 #html_theme = 'alabaster'
 import sphinx_rtd_theme
+import sphinx_fontawesome
+
 html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+# html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -159,7 +162,9 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+# html_static_path = ['_static']
+
+html_css_files = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"]
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -322,8 +327,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'BTTRecorder', u'Tech Advance Training Curriculum',
-     author, 'BTTRecorder', 'One line description of project.',
+    (master_doc, 'Tech-Advance-Training', u'Tech Advance Training Curriculum',
+     author, 'Tech Advance', 'These documents are for the training of Tech Advance field techs.',
      'Miscellaneous'),
 ]
 
