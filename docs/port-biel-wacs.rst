@@ -2,6 +2,8 @@
 PORT ↔ BIEL ↔ WACS
 ##################
 
+.. |content-copy| image:: ../images/content_copy.*
+
 There are three websites or Internet services used with our translation tools. The acronyms, or short forms, of these sites are PORT, BIEL, and WACS.
 
 ****
@@ -132,6 +134,41 @@ Below that are three tabs: **Repositories**, **Users**, and **Organizations**. B
 Below, you'll see a list of the most recent uploads to WACS, by any user. The first part of the name (before /) is the username of the person who uploaded. The second part (after /) is the name of the project. You can search for a repository (project) by clicking in the **Search** bar and typing part of the name of the repository. In the case of the first one in the image, we could search for `wyy_`, which would find uploaded projects that match the language code `wyy`. We could type `_act_` to search for uploaded projects of the Book of Acts. Searching for `wyy_act` would search for the Book of Acts in the language indicated by code `wyy`.
 
 If you click on **Users**, you can search by username. This will let you find accounts that match that name, and then look at all of the uploads performed by that person.
+
+Troubleshooting WACS
+====================
+
+One problem people sometimes encounter is being told an upload can't be found.
+
+Where is my Upload?
+-------------------
+
+When you upload from BTT-Writer, you will get a notification of success that looks like this:
+
+.. image:: ../images/upload-complete-en.*
+
+Looking at this image, we can see:
+
+    ① Clicking on the |content-copy| icon will copy the link to the uploaded project to your clipboard. (In this case, the link is https://content.bibletranslationtools.org/Raphael/fr_3jn_text_reg )
+
+    ② Clicking on **READ ON WEB** will open the project in the Web Reader.
+
+.. image:: ../images/online-project-wacs-en.*
+
+If you go to the project online, you'll see something like this.
+
+    ① The `manifest.json` file contains the *metadata* about the project: language name and code, what sources were used, who the contributors were, what the level of completion is.
+    
+    ② There is a folder (or directory) for each chapter of the book. The folder for Chapter 1 is labeled **01**.
+    
+    ③ If you click on the **See in Reader** button, it will take you to the Web Reader, just like the button in BTT-Writer would do.
+
+If I forgot to copy the link to my project when I uploaded it, I can either
+
+  1. upload it again, and pay attention this time. (Only changes will be uploaded, so it will not use much data.)
+  2. :ref:`Explore<Explore>` WACS looking for the repo. 
+    1. In the case of the first example, the **Username** is `Raphael`, the **language code** is `fr`, and the **book code** is `3jn`.
+    2. In the case of the second example, the **Username** is `Raphael`, the **language code** is `en-x-demo1`, and the **book code** is `2pe`.
 
 ##################
 WACS ↔ PORT ↔ BIEL

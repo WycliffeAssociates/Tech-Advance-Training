@@ -57,6 +57,7 @@ Installing BTT-Writer for Android
 Starting with **Version 1.5.1**, BTT-Writer Android is again available on the Google Play Store. You can find it by searching for BTT-Writer, or you can use this link: https://play.google.com/store/apps/details?id=org.bibletranslationtools.writer.android
 
 .. image:: ../images/writer-android-install-link.*
+    :width: 0.75in
 
 You can also download an **.apk** of the program that can be manually installed on an Android device. That is available here: https://github.com/Bible-Translation-Tools/BTT-Writer-Android/releases/latest or at **Basic Translation Tools** https://BasicTranslationTools.org
 
@@ -234,7 +235,7 @@ Hamburger Menu (3 Dots) on Home Screen
 
 - **Update** allows you to check for updates to Source Texts and Target Language Codes.
 - **Import** allows you to import files from WACS, an exported Project File (``.tstudio`` file), a USFM File, or even a resource container for a new Source Text.
-- **TranslationAcademy** is a translation manual that discusses the translation process, and how to evaluate a translation for quality.
+- `TranslationAcademy`_ is a translation manual that discusses the translation process, and how to evaluate a translation for quality.
 - **Feedback** allows you to send an anonymous report to GitHub about BTT-Writer. Please note that because it is anonymous, unless you include your contact information in your message, you will not get a reply. These reports are lited here: https://github.com/Bible-Translation-Tools/BTT-Writer-Desktop/issues
 - **Logout** is like the Logout option at the top of the screen.
 - **Settings** gives access to many ways to customize BTT-Writer.
@@ -265,6 +266,8 @@ Update
   - If there is an updated or new Source, this will let you choose what to download
 - **Update List of Available Target Languages**
   - Check to see if there are any new language codes.
+
+BTT-Writer Android has an additional menu option: **Check for Update to BTT-Writer**.
 
 BTT-Writer keeps a database of available Source (**Gateway Language**, “GL”) Texts. The database also keeps a list of available **Target Language** codes, for translation projects. In addition, BTT-Writer stores **Source Texts** on your hard disk drive, ready to be used for a translation project. *Every time BTT-Writer is updated*, the new release will include all of the sources available at that time. It will also include all of the target language codes currently available. However, over time, new codes will be added, and sometimes language names will be spelled differently, although they keep the same codes.
 
@@ -301,6 +304,14 @@ Update List of Available Sources
 
 Updating Source Texts (GL) is a two-step process. It is not usually a good idea to change the content of the source text while translation is happening. (It makes it difficult to check.) Therefore, the first part of the update is to see what updates are available.
 
+.. image:: ../images/no-new-sources-en.*
+    :align: left
+    :width: 45%
+
+.. image:: ../images/132-new-sources-en.*
+    :align: right
+    :width: 45%
+
 Once you have been notified that an update is available, you can see if it’s available for your current project when you select sources for that project.
 
 If you choose Download Available Source Texts from the Hamburger Menu, you can select multiple books for download. However, available updates are not shown by green arrows here.
@@ -315,10 +326,17 @@ If you choose Download Available Source Texts from the Hamburger Menu, you can s
 
 Download Available Source Texts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. image:: ../images/select-source-language-en.*
 
-When updating Sources from the Hamburger Menu |ellipsis-v|, you are first asked to choose a language for the updates. Then, choose the Testament that you want to update. Other allows you to update translationWords, which is a resource for the whole Bible.
+When updating Sources from the Hamburger Menu |ellipsis-v|, you are first asked to choose a language for the updates. Then, choose the Testament that you want to update. **Other** allows you to update translationWords, which is a resource for the whole Bible.
 
-Within a Testament, you can choose individual books. Please note that this is by language, not by text. As a result, you can choose from multiple sources. Here, you can see both the Unlocked Literal Bible (ULB) and the Unlocked Dynamic Bible (UDB). In Arabic, we have both the Ketab El Hayat and the Van Dyke translation available.
+.. image:: ../images/select-testament-en.*
+    :align: center
+
+Within a Testament, you can choose individual books. Please note that this is by language, not by text. As a result, you can choose from multiple sources. Here, you can see both the **Unlocked Literal Bible (ULB)** and the **Unlocked Dynamic Bible (UDB)**. In Arabic, we have both the **Ketab El Hayat** and the **Van Dyke** translation available.
+
+.. image:: ../images/select-book-version-en.*
+    :align: center
 
 |wifi| **All updates**, whether using the green arrow or the **Updates Sources** menu, use an Internet connection, will use Internet data, and will make a connection to bibletranslationtools.org. If it’s dangerous for you to visit that site, please use a VPN before updating the sources in BTT-Writer.
 
@@ -365,6 +383,9 @@ You will be notified whether language codes have been added or not.
 
 Target language codes are updated very often, and it is much more likely that you will need to update target codes than source texts.
 
+.. image:: ../images/target-added-en.*
+    :align: center
+
 .. admonition:: Lab 26: Updating Target Languages
 
   1. When should you use a VPN to update target languages?
@@ -377,7 +398,7 @@ Import
 .. image:: ../images/import-menu-en.*
     :align: left
 
-Imports are done from the Import menu on the Home Screen. *This menu is not available while editing a project.*
+**Imports** are done from the Import menu on the Home Screen. *This menu is not available while editing a project.*
 
 **Import from Server** allows importing from any account on WACS. |wifi|
 
@@ -395,7 +416,163 @@ Imports are done from the Import menu on the Home Screen. *This menu is not avai
 
    3. Which option do you use to import from a different translation program?
 
-BTT-Writer supports light and dark mode Color Themes. If you select System, it will follow the light or dark theme of your operating system. ① You can set the font and font size for the Target Translation and ② have a different font and size for the Source Text. Some languages use a writing style that has the same letters as another, but is more readable in a different font, or at a different size. You can download fonts to your computer and use them in BTT-Writer, but Android requires a special build of the program to use a font that’s not part of the Android system.
+Import from Server
+^^^^^^^^^^^^^^^^^^
+
+.. image:: ../images/import-from-server-en.*
+    :align: center
+
+Import from Server will allow you to search the server for a project by User Name and/or by project name (here called “Book or Language”). On PC, *if you are logged in to WACS*, your user name will be filled in on the left side, and projects from your WACS account will fill in below. If you have many projects in your account, it will take some time before changes made to user name or book or language will be reflected. This is especially true if you have slow Internet. On Android, your user name is not filled in automatically.
+
+Importing from the server and importing a project file are very similar. In both cases, git is used to preserve the change history of the project, and the manifest file that indicates which chunks have been closed and who the translators are (Contributors) is included.
+
+.. admonition:: Lab 35: Import from Server
+
+  1. What is the effect of being logged in to WACS when you select Import from Server?
+
+  2. What can cause the initial search to take a long time?
+
+Import Project File
+^^^^^^^^^^^^^^^^^^^
+
+Import Project File will open a standard file picker5 window that defaults to the Backups folder in your Backup Location (from the Settings). The only files that can be selected are `.tstudio` project files.
+
+`.tstudio` files contain the standard project folder (from the data path) and a second manifest file with information about the project. All of this is zipped (compressed with the zip format) into another folder and given the file extension .tstudio.
+
+While project files can be manually changed, it is an advanced technique and should not be attempted casually. A project can only be imported and exported from or to a project file if the project has a valid git history. The import/export process uses git to validate the data.
+
+The “standard file picker” is different for every operating system. It is the window that your computer opens when it wants you to select a file for opening.
+
+.. admonition:: Lab 36: Import Project File
+
+    1. Where does BTT-Writer look for files when you Import a Project File?
+
+    2. What file extension does BTT-Writer look for when importing a Project File?
+
+Merging
+^^^^^^^
+
+When you import a project from the server or from a project file, sometimes you already have another copy of the same project on your computer. There are three elements of a project that define it. If only one or two of these elements are the same, the projects are considered different projects. However, if all three are the same, they are considered the same project, and you must either **Cancel, Merge Projects, or Overwrite Project**.
+
+The three elements of a project are
+
+  1. the Project Name (or Book of the Bible),
+  2. the Type (which should almost always be text),
+  3. and the Language Code.
+
+With Bible translation, there are **66** different Projects (for the 66 books), **3** Types (Regular Text, ULB, & UDB), and many different language codes.
+
+.. image:: ../images/three-project-elements-en.*
+    :align: center
+
+In the above example, the **Project Name** (3 John) is the same, and the **Language Code** is the same (Icelandic Sign Language: `icl`), but the **Type** is different (one is **reg** `Text`, and the other is **ULB**). They are considered *different* projects.
+
+The only way to import a **3 John Icelandic Sign Language** project without some kind of conflict would be if the incoming project were **UDB**, the third *Type* of project.
+
+If the two projects being merged have a *common git history* it is possible to merge them without any difficulty. Also, if the project being merged has *no chunks* in common with the other project, there will be no problem. The *git* software underlying BTT-Writer will add the changes to the *git history* for future reference, and everything will be put together nicely.
+
+.. admonition:: Advanced Note
+    :collapsible: closed
+
+    The `manifest.json` file will *always* conflict between two project files, but BTT-Writer remakes the `manifest` so that you don't have to worry about it.
+
+We will discuss handling merges and merge conflicts later, but note that this can only happen when importing from the server or from a project file.
+
+Import USFM File
+^^^^^^^^^^^^^^^^
+
+Importing from USFM is slightly simpler than importing from a Project File or the server. **There is no merging.** But some information is not available in USFM. If a project already exists, BTT-Writer will ask for permission to **overwrite the existing project**. Although USFM import has improved over the years, some data, like the language code, is not preserved. It is not part of USFM. This data must be re-entered. Some data, like the translator names, can be tedious to re-enter. Project files, because they save the manifest file, save the level of completion of the project. USFM doesn’t know which chunks have been checked all the way.
+
+- **USFM Import and Export should be done rarely.** Most of the time, Project File import export (or upload to the server!) is better.
+- USFM Import and Export can be helpful when working with other programs, like Paratext or PTXPrint.
+
+.. admonition:: What is USFM?
+
+    USFM stands for Unified Standard Format Markers. It is a system for writing Scripture so that the content (meaning) of the words is kept separate from the format (way it is displayed). For example, you can buy Bibles that don't have verse numbers. These numbers are "part of" the received text, but they are *not* "part of" the content of Scripture. Moses and Paul did not write verse notes while they were writing. Those were added later to make it easier for people to find a specific passage and discuss it with one another.
+
+    Most USFM markers start with a backslash (\\). There will generally be a space after the marker. Some markers need to be on their own line. Writing with USFM can be very complicated, so BTT-Writer handles most of it for us, and it also only supports a few different markers.
+
+.. admonition:: Lab 42: USFM Import
+
+     1. Are you able to merge text during a USFM Import?
+
+     2. Does USFM keep all of the information about the project?
+
+     3. When should you use USFM Import?
+
+Import Source Text
+^^^^^^^^^^^^^^^^^^
+
+The most rare kind of import is the Source Text. Almost any time you need a new Source Text, you will get it from Updating the List of Source Texts, and then downloading the new text.
+
+So, when do we use the Source Text Import?
+
+You may go to an event where there is very poor Internet, and where you know the computers have an outdated version of the source. Then, you can side-load the source text to the computers using this. Or, you may work on a project for a language that uses a source that is not a Gateway Language. Sometimes, we get permission to use a text, but only for a specific country, or for specific work. In that case, you will get the Source Text in a resource container from Tech Advance, and you will import it using this option.
+
+.. admonition:: Lab 43: Import Source Text
+
+  1. What is the normal way to import a Source Text?
+
+translationAcademy
+------------------
+**translationAcademy** is a collection of materials explaining the translation process, and giving examples of the best practices to use. While some translation teams may find this information useful or helpful, it is not part of the functioning of BTT-Writer.
+
+Feedback
+--------
+
+.. image:: ../images/feedback-form-en.*
+
+When you use the Feedback option on the menu, an **Issue** [#github_issue]_ will be created on GitHub for you. This issue will contain any text you type in the box, and also the contents of the *log file* that BTT-Writer keeps. This log file may contain useful information (like error messages) that will help us to understand and correct the problem. It may also contain your username, which will allow us to reply to you. However, if the log file does *not* contain any of your user information, you will not receive a response from us, because the Feedback is otherwise anonymous. If you want to receive a reply, be sure to include your email address in the Feedback text you enter in the box.
+
+.. [#github_issue] https://github.com/bible-translation-tools/BTT-Writer-Desktop/issues
+
+Logout
+------
+The **Logout** option does the same thing as the :ref:`Logout<BTT-Writer Home Screen>` option next to your username at the top of the screen.
+
+
+Settings
+--------
+
+Interface Language & Basic Settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: ../images/settings-1-en.*
+    :align: center
+
+The first three options in Settings are for the general operation of BTT-Writer.
+
+① Starting in version 1.4.0, BTT-Writer is able to work in different languages.
+    BTT-Writer (Desktop) is able to work in English, French, Spanish, Portuguese, Farsi, and Russian.
+
+.. image:: ../images/crowdin.*
+    :width: 0.75in
+    :align: right
+
+Unfortunately, BTT-Writer (or its ancestor, translationStudio) was not designed to be multi-lingual. This was very difficult to correct, and we have only recently finished changing the program to allow for different languages.
+We are not yet done. Now that the program has been changed, we will need people to create the translations of the interface. For this, we use a site called CrowdIn (https://crowdin.com). If you are interested in helping us to put BTT-Writer’s menus in your language, contact helpdesk@techadvancement.com.
+
+② **Gateway Language Mode** is only for making resources for GL translations. If you don’t know that you are working on a GL project, turn this off.
+③ **Blind Edit Mode** enables additional features in BTT-Writer that support the MAST methodology. This should normally be on.
+
+.. admonition:: Lab 44: Settings Lab 1
+
+    1. For most projects, should Gateway Language Mode be on or off?
+    2. For most projects, should Blind Edit Mode be on or off?
+    3. How can you change the language that BTT-Writer uses for its interface?https://www.sphinx-doc.org/en/master/man/sphinx-build.html
+    4. What can you do if your language isn’t yet available?
+    5. Make sure that Gateway Language mode is off in your copy of BTT-Writer (unless you are working with a Gateway Language project).
+    6. Make sure that Blind Edit Mode is on in your copy of BTT-Writer.
+    7. If English isn’t your preferred language, look to see if BTT-Writer has your language available.
+
+
+Fonts and Colors
+^^^^^^^^^^^^^^^^
+
+.. image:: ../images/settings-2-en.*
+    :align: center
+
+BTT-Writer supports light and dark mode Color Themes. If you select **System**, it will follow the light or dark theme of your operating system. ① You can set the **font** and **font size** for the **Target Translation** and ② have a different **font** and **size** for the **Source Text**. Some languages use a writing style that has the same letters as another, but is more readable in a different font, or at a different size. You can download fonts to your computer and use them in BTT-Writer, but **Android** requires a special build of the program to use a font that’s not part of the Android system.
 
 If you need a special font when displaying a translation on BIEL, a special change needs to be made to the repository for that book. That’s an advanced topic that we’ll discuss later.
 
@@ -408,6 +585,91 @@ If you need a special font when displaying a translation on BIEL, a special chan
     3. What needs to be done to have a custom font in BTT-Writer for Android?
 
     4. Experiment in your copy of BTT-Writer with different color themes and font settings.
+
+
+Backups and File Locations
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: ../images/settings-3-en.*
+
+① BTT-Writer automatically makes a backup every 5 minutes of the active project. It is saved to this location in a subfolder called *automatic_backups*. Backups are also made of every project when BTT-Writer first starts. If a project is broken and can’t be normally backed up, a zip file will be made of it and placed in the **automatic_backups** folder. (These are the folder names on Desktop. Android has special limitations, which can be discussed separately.)
+
+When you export a project, it will default to this location, sometimes in a backups folder here.
+
+② If you have problems with your BTT-Writer, we will ask you what **version** you are using. That information can be found here. (It’s also displayed when BTT-Writer first starts.) When a new version comes out, you can check to see if you are up to date.
+
+③ The **git** version is also important, but we don’t ask for it as often.
+
+④ This may be the most important item. BTT-Writer stores its working files in the **Data Path**. This is sometimes called the “happy path”.
+
+⑤ Under **Legal** are copies of the **License Agreement**, **Translation Guidelines**, and **Statement of Faith** that were agreed to when the user logged in.
+
+Under **Software Licenses** are the licenses for the various different software programs that are used together to make BTT-Writer.
+
+.. admonition:: Lab 30: Settings Part 3
+
+  1. If you save a file or export something, where should you look for it?
+
+  2. If you want to find the automatic backup made of your project, where should you look?
+
+  3. If you think a project is damaged, where should you look?
+
+  4. If you want to see the working files being used by BTT-Writer, where should you look?
+
+  5. How can you find the version of BTT-Writer you are using?
+
+Advanced Settings
+^^^^^^^^^^^^^^^^^
+
+The **Advanced Settings** nearly all concern the |wifi| Internet servers used by BTT-Writer.
+
+ - The **Server Suite** lets you switch all of the settings from WACS-facing to DCS-facing. DCS was a server that we previously used. We no longer use DCS.
+ - The **Data Server** is WACS – where your data will be stored, and where you download *from* when you :ref:`Import from Server<Import from Server>`.
+ - The **Media Server** is used under the hood by the program.
+ - The **Reader Server** is where you will be able to read uploaded projects in a *presentation* format.
+ - The **Create Account URL** is the address where :ref:`WACS<WACS>` accounts can be created.
+ - The **Languages URL** is where the list of :ref:`Available Target Languages<Update List of Available Target Languages>` comes from.
+ - The **Index.sqlite URL** is the address from which a complete `index.sqlite` file can be downloaded.
+
+Finally, **Developer Tools** (on Desktop) will open another window on your screen showing debug information about BTT-Writer. A technician can sometimes use this information to fix a problem.
+
+A Final Word About Language Codes
+=================================
+
+.. image:: ../images/french-codes.*
+    :align: right
+
+Language codes are either set by an International Standards Organization (codes like ``zh``, ``en``, or ``pt-br``) or by language researchers. Once a code is set for a language it should not be changed. The code is needed to uniquely identify the language. It is not intended to be the same as what the people call their language. In this example, Modern French uses the French name for the language, **français**, including the lower case first letter.
+
+For the other versions of French, the English name is used, along with date information for older versions of French. If the French people decided that they wanted all of these languages to be labeled in French, they could contact Translation Services. The names would then be adjusted in PORT. However, the language codes would remain the same. **It is not the Tech’s responsibility to change a language name or code.**
+
+.. admonition:: Lab 31: Language Codes
+
+  1. Where does BTT-Writer get its language code information from?
+
+  2. Who can change the information about a language in BTT-Writer?
+
+  3. How can a language group change the code used for their language?
+
+******************
+Creating a Project
+******************
+
+When creating a translation project in BTT-Writer, first you must choose the target language. You can scroll down and select a language from the list, or you can start typing the name or the code of the language.
+
+The best practice is to type the code. You should always have the code from the Project Manager before the typing begins. There are many languages in the world with the same name, but each language has only one code.
+
+If, for some reason, you are forced to begin a project for a language that doesn’t have a code, try to pick a code that will be easy to spot and change later on. A sign language code is one suggestion, since sign language translations are done using video instead of BTT-Writer. *Icelandic Sign Language*, for example, uses the code ``icl``. If you don’t use the correct code for a language, you should always make a note. One place you can put a note that will stay with the project is in the **Contributors** field. Say something like, “Using icl code for Ugaritic language in Syria”. That way, it will be simpler for someone to fix the code later.
+
+① The language name and ② code will be displayed as you are asked to choose a Testament to translate from. Finally, you will be able to choose a book to translate.
+
+.. admonition:: Lab 32: Creating a Project
+
+  1. What information do you need to know before you can begin a translation project?
+
+  2. What is the best way to search for a language in the list?
+
+
 
 Hamburger Menu |ellipsis-v| (in a Project)
 ==========================================

@@ -14,18 +14,13 @@ Contents:
    BTT-Writer
    Settings, Part 2
    Settings, Part 3
-   A Final Word About Language Codes
    Creating a Project
    Selecting a Source
-   Import from Server
-   Import Project File
    Project Already Exists
    Does the Project Exist?
    Merge or Overwrite?
    Correcting Meta-Data
    Merge Conflicts
-   Import USFM File
-   Import Source Text
    8 MAST Steps
    Steps on BTT-Writer for a translator
    Finishing a Project
