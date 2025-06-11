@@ -12,9 +12,6 @@ Contents:
    port-biel-wacs
    Paying for Software
    BTT-Writer
-   Settings, Part 2
-   Settings, Part 3
-   Creating a Project
    Selecting a Source
    Project Already Exists
    Does the Project Exist?
