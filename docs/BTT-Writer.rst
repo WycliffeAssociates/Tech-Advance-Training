@@ -3,6 +3,7 @@
 
 .. |wifi| image:: ../images/network.*
     :height: 14pt
+    :width: 14pt
 
 .. |ellipsis-v| image:: ../images/ellipsis-v.*
     :height: 14pt
