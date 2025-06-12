@@ -31,8 +31,7 @@
 # ones.
 extensions = [
              'sphinx.ext.autosectionlabel',
-             'sphinx_rtd_theme',
-             'sphinx_fontawesome'
+             'sphinx_rtd_theme'
              ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -125,7 +124,6 @@ todo_include_todos = False
 #
 #html_theme = 'alabaster'
 import sphinx_rtd_theme
-import sphinx_fontawesome
 
 html_theme = "sphinx_rtd_theme"
 # html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
@@ -164,7 +162,7 @@ html_theme = "sphinx_rtd_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 # html_static_path = ['_static']
 
-html_css_files = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"]
+# html_css_files = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"]
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
