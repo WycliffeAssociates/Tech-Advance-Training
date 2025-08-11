@@ -2,7 +2,7 @@ name: Auto-Sync Fork with Upstream
 
 on:
   schedule:
-    - cron: "*/2 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:     # allow manual trigger
 
 jobs:
