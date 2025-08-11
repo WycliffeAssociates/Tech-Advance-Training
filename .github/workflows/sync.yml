@@ -28,6 +28,7 @@ jobs:
 
       - name: Force reset master to upstream
         run: |
-          git checkout master
-          git reset --hard upstream/master
-          git push origin master --force
+          git checkout -B master origin/master   # create/update local master from your fork origin/master
+          git reset --hard upstream/master       # reset local master to upstream/master
+          git push origin master --force         # force push the reset branch back to your fork
+
