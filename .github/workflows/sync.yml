@@ -1,8 +1,8 @@
-name: Auto-Sync Fork with Upstream
+name: Auto-sync master with upstream
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 0 * * *" # run everyday at midnight
   workflow_dispatch:     # allow manual trigger
 
 jobs:
