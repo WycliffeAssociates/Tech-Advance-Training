@@ -10,7 +10,7 @@ Do not steal software. Do not pirate software. Do not buy software from the guy 
 Not only will you be breaking God’s law, you will make your computer more vulnerable to viruses. Don’t say, “Copyright means, if you copy it’s all right.” There is software that does what you need that is
 available for free, without stealing from the programmer(s).
 
-You may find that you *need* a certain piece of software. You should speak to your supervisor about it and see if it can be acquired, or if there is a good free, Open Source alternative. If your supervisor is unable to help you with the software purchase, perhaps friends and colleagues at your church, who share your passion and vision, will be able to help you raise the money. Most of all, "ask God, who gives generously to all". You may be surprised at the ways in which He can provide something like software for you. However, be certain that you aren't just asking "to spend on your passions".
+You may find that you *need* a certain piece of software. You should speak to your supervisor about it and see if it can be acquired, or if there is a good free, Open Source alternative. If your supervisor is unable to help you with the software purchase perhaps friends and colleagues at your church, who share your passion and vision, will be able to help you raise the money. Most of all, "ask God, who gives generously to all". You may be surprised at the ways in which He can provide something like software for you. However, be certain that you aren't just asking "to spend on your passions".
 
 Software we recommend:
 - Office Software (like MS Office / MS Word): LibreOffice ◦ https://libreoffice.org
