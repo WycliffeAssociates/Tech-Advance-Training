@@ -560,7 +560,7 @@ Unfortunately, BTT-Writer (or its ancestor, translationStudio) was not designed 
 We are not yet done. Now that the program has been changed, we will need people to create the translations of the interface. For this, we use a site called CrowdIn (https://crowdin.com). If you are interested in helping us to put BTT-Writer’s menus in your language, contact helpdesk@techadvancement.com.
 
 ② **Gateway Language Mode** is only for making resources for GL translations. If you don’t know that you are working on a GL project, turn this off.
-③ **Blind Edit Mode** enables additional features in BTT-Writer that support the MAST methodology. This should normally be on.
+③ **Blind Edit Mode** enables additional features in BTT-Writer that support the Eight Step methodology. This should normally be on.
 
 .. admonition:: Lab 44: Settings Lab 1
 

@@ -1,4 +1,4 @@
-8 MAST Steps
+8 Steps
 ------------
 
 Drafting Steps
@@ -15,7 +15,7 @@ is entered into the computer. If that is the case, you don’t need to
 worry about this feature of BTT-Writer. However, it’s important for us
 to understand the translation process.
 
-BTT Writer can help you in many of the MAST translation steps. Steps One
+BTT Writer can help you in many of the eight translation steps. Steps One
 and Two are done on the screen selected by the “Read” icon showing four
 horizontal lines.
 
@@ -38,7 +38,7 @@ horizontal lines.
    looks different, or if you have only two icons in the upper left, you
    need to go to the settings and enable Blind Edit Mode.
 
--  **Step 4** – Blind Draft The MAST process works because the Blind
+-  **Step 4** – Blind Draft The eight step process works because the Blind
    Draft step causes the translator to translate the passage into an
    easily understood, natural sounding translation. To get to the blind
    draft, the translator clicks on the card behind the Source chunk. The
@@ -51,7 +51,7 @@ horizontal lines.
 Checking Steps
 ~~~~~~~~~~~~~~
 
-Steps 5-8 of the MAST process are editing steps. They can all be
+Steps 5-8 of the eight step process are editing steps. They can all be
 performed on this screen. It is selected by the “Edit-Review” icon
 showing three vertical rectangles, representing the three panes of the
 checking screen.
@@ -72,21 +72,21 @@ Click on this tab to close the chunk when the checks are complete. The
 chunk shown on the right displays the USFM codes for verse 12 and verse
 13. You click on the √ tick when you are done typing in this chunk.
 
-Lab 44: MAST Steps Lab
-''''''''''''''''''''''
+Lab 44: Eight Steps Lab
+'''''''''''''''''''''''
 
-1. What control is selected to do the first two steps of MAST?
+1. What control is selected to do the first two steps of the translation process?
    \________________________________________________________\_
 2. Which step does not require using a computer?
    \________________________________________________________\_
-3. Which control is selected for Step 3 and Step 4 of MAST?
+3. Which control is selected for Step 3 and Step 4 of the translation process?
    \________________________________________________________\_
 4. Explain why we use a blind draft.
    \________________________________________________________\_
    \________________________________________________________\_
    \________________________________________________________\_
    \________________________________________________________\_
-5. Which control is selected for MAST Steps 5-8?
+5. Which control is selected for Steps 5-8?
    \________________________________________________________\_
 6. Are you able to change the content of the Source Text pane?
    \________________________________________________________\_

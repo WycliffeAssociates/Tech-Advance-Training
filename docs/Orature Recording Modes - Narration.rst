@@ -2,7 +2,7 @@ Orature Recording Modes - Narration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For recording audio of an existing written translation in the same
-language. The translators perform the 8 MAST steps during the
+language. The translators perform the 8 steps during the
 translation process, but the recording takes place after the translation
 has been approved. 1. Click on the plus sign on the Orature home page in
 the blue box. In the upper left corner. 2. Find the Narration Mode and
@@ -31,7 +31,7 @@ Orature Recording Modes - Dialect
 
 Record the audio of an existing written translation in a different
 language variety/dialect. This process does not require users to follow
-the MAST steps. 1. Click on the plus sign on the Orature home page in
+the eight steps. 1. Click on the plus sign on the Orature home page in
 the blue box. In the upper left corner. 2. our three recording options,
 we select Dialect by left-clicking on “Select.” 3. Select the language.
 This will serve as a reading resource to develop the narration

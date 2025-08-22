@@ -76,7 +76,7 @@ Lab 45: Project Review
    \________________________________________________________\_
    \________________________________________________________\_
 3. If the translation team did not finish a chunk, do they need to do
-   all 8 MAST Steps again for that chunk?
+   all 8 Steps again for that chunk?
    \________________________________________________________\_
 4. Sometimes, this is a chunk that needs to be closed. How can you close
    all of the available chunks at once (assuming that you believe them

@@ -9,6 +9,7 @@ Contents:
    :maxdepth: 6
    
    intro
+   the-translation-process
    port-biel-wacs
    Paying for Software
    BTT-Writer
@@ -18,7 +19,7 @@ Contents:
    Merge or Overwrite?
    Correcting Meta-Data
    Merge Conflicts
-   8 MAST Steps
+   8 Steps
    Steps on BTT-Writer for a translator
    Finishing a Project
    Project Contributors
@@ -51,7 +52,7 @@ Contents:
    Recording Equipment
    Cable Management
    Orature Recording Modes
-   MAST 8 Steps in Orature
+   Eight Translation Steps in Orature
    Orature Recording Modes - Narration
    Edit Verse Markers
    Recording and Editing Audio

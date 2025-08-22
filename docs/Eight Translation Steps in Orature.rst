@@ -1,5 +1,5 @@
-MAST 8 Steps in Orature
-~~~~~~~~~~~~~~~~~~~~~~~
+Eight Translation Steps in Orature
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Step 1 and 2 - Consume and Verbalize
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -15,7 +15,7 @@ allows us to play the audio in the source language.
 Step 3 - Chunking
 ^^^^^^^^^^^^^^^^^
 
-In the third MAST step, the source audio from the Scriptures is divided
+In the third step, the source audio from the Scriptures is divided
 into small parts. In each unit, the translator should include as much of
 the audio as they can remember while ensuring that their breathing, tone
 of voice, and speaking ability are not affected. 1. Add Chunk: This
@@ -57,8 +57,8 @@ Delete Take: With this option, we can delete the recording. We must do
 this with great care because a recording cannot be recovered if it is
 deleted.
 
-MAST Steps – Checking
-~~~~~~~~~~~~~~~~~~~~~
+Eight Steps – Checking
+~~~~~~~~~~~~~~~~~~~~~~
 
 Step 6 - Peer Edit
 ^^^^^^^^^^^^^^^^^^

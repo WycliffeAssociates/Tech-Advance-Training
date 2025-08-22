@@ -14,7 +14,7 @@ Steps on BTT-Writer for a translator:
    3. Select the book.
    4. Select the source.
 
-5. Remember the MAST Steps:
+5. Remember the Eight Steps:
 
    1. Use Read for Steps 1 & 2
 
