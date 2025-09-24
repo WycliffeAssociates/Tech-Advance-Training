@@ -10,6 +10,9 @@ There are three websites or Internet services used with our translation tools. T
 PORT
 ****
 
+.. image:: ../images/PORT.*
+    :alt: Image of PORT website
+
 PORT is an online database used by Translation Services to keep track of translation projects. PORT automatically reads uploads to WACS and checks them for completion status.
 
 - Accounts on PORT are created by account managers in WA. There is no way to create your own account.
@@ -138,7 +141,9 @@ If you click on **Users**, you can search by username. This will let you find ac
 Troubleshooting WACS
 ====================
 
-One problem people sometimes encounter is being told an upload can't be found.
+One problem people sometimes encounter is being told an upload can't be found. Uploads will *always* be in the account of the user who uploaded them. If the upload was successful, you should be able to see the upload using *Explore* on WACS and going to the user's account.
+
+Sometimes, what people mean is that **PORT** is not showing the correct information about the upload. We will look at that separately.
 
 Where is my Upload?
 -------------------
@@ -176,11 +181,25 @@ WACS ↔ PORT ↔ BIEL
 
 How do these three websites interact?
 
-Language codes come from PORT. Project Managers should make sure that a project is correctly configured in PORT before starting the project.
+Language codes come from **PORT**. Project Managers should make sure that a project is correctly configured in PORT before starting the project. *Any change to the language code after a project has started will cause problems.*
 
-BTT-Writer can upload and download projects to and from WACS. PORT monitors these uploads, and a Manager says which uploads are active, meaning they come from the translation project, and which one upload is primary. Only the Primary upload is considered with reference to how complete a project is.
+BTT-Writer can upload and download projects to and from **WACS**. **PORT** monitors these *uploads*, and a Manager says which uploads are active, meaning they come from the translation project, and which one upload is **Primary**. Only the **Primary** upload is considered with reference to how complete a project is.
 
-After a Project is marked Primary, it can also be marked to Show on BIEL. Without this mark, the project will not show up if someone searches for that language code.
+After a Project is marked Primary, it can also be marked to **Show on BIEL**. Without this mark, the project will not show up if someone searches for that language code.
+
+If a project has been uploaded from **BTT-Writer** and can be seen on **WACS**, but is not showing correctly on **PORT**, there are several reasons this might be.
+
+1. It has not been long enough since the upload was performed. **PORT** does not look at **WACS** in real time. A computer program runs every night (in Orlando, FL) to update the list of projects. Your upload will not appear correctly in PORT until this program has run. Please wait 24-48 hours before reporting a problem.
+
+2. The language code is not correct. No matter how many times we emphasize using the correct language code, people still make uploads using the wrong code. Sometimes, this is not exactly their fault. Recently, we had a situation where a language code had been *changed* on PORT, and many people had versions of BTT-Writer with the older code. The new code didn't appear, and the old code was the only one showing for a language with that name. However, after updating target language codes (see the BTT-Writer section) the old code disappeared and the new code appeared.
+
+   1. Please note that in this sort of case the techs on the field should be sure to update their list of target languages, and then change the projects to the new code.
+
+3. If the project can be found in WACS, and has the correct language code, it may have been marked **Inactive** in PORT. This is something a Manager can do, and can correct. Once a project has been marked *Inactive* it will not show up in the report in PORT unless **Inactive Translation Repos** are shown, or its status is changed back to **Active**.
+
+.. image:: ../images/inactive-translations.*
+
+4. Finally, it's possible that the overnight job experienced a problem in copying the information from WACS to PORT. While this is rare, it does sometimes happen, and when it does you will need to contact the help desk to have the problem resolved.
 
 You can still read a project using the read mode on BIEL if you locate the project on WACS and click the Read button.
 
@@ -212,7 +231,7 @@ You can still read a project using the read mode on BIEL if you locate the proje
 Other Websites
 ##############
 
-https://techadvancement.com is the help site for Tech Advance, where you can find forms, links, and information for getting on our social media. An account is not needed for TechAdvancement.
+https://techadvancement.com is the help site for Tech Advance, where you can find forms, links, and information for getting on our social media. You can also use the site to create a help ticket with the Help Desk. An account is not needed for TechAdvancement, although it will be needed if you want to check up on your ticket.
 
 https://github.com is a site for software developers to share the code for their programs and provide downloadable binaries for people to use. All programs developed by Wycliffe Associates are provided on GitHub.
 You can download the latest version of, for example, BTT-Writer for Desktop computers by going to https://github.com/bible-translation-tools/BTT-Writer-Desktop/releases/latest An account is not needed to download from GitHub, but you will need an account if you want to *watch* a project to be notified when there is a new release.

@@ -84,6 +84,15 @@ The best way to communicate with us is by email.
 
 3. We have help articles, links, and more at our website: https://techadvancement.com/
 
+.. figure:: ../images/tech-advance-newsletter.*
+    :align: left
+    :alt: QR Code for Tech Advancement Newsletter
+    :width: 100px
+
+    Tech Advance Newsletter
+
+4. We have a periodical newsletter that includes information on new versions of programs, and tips on how to do translation work safely. https://techadvancement.com/newsletter/
+
 .. admonition:: Lab 3: How should you communicate with Tech Advance?
 
    1. Where can you find articles and links?
@@ -91,3 +100,5 @@ The best way to communicate with us is by email.
    2. What is the "best" way to contact us?
 
    3. What can you do if text messaging works better than email for you?
+
+   4. How can you stay informed of regular changes?
