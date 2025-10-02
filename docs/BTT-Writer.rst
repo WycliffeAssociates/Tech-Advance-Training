@@ -12,13 +12,16 @@
 BTT-Writer
 ##########
 
-In order to complete this section, you will need an email address that you can check while doing this work. (Of course, you will need some kind of Internet connection, too.)
+BTT-Writer is the main software we use to prepare translation to be uploaded to WACS. It can be used during the translation process, and it can also be used to enter a translation that has already been done (for example, on paper). It can even be used for simple printing of translated material. The main reason we encourage people to use BTT-Writer, and to be clear on how it works, is that it works hand-in-hand with WACS.
+
+In order to complete this section, you will need an **email address** that you can check while doing this work. (Of course, you will need some kind of Internet connection, too.)
 
 If BTT-Writer will only be used off-line, i.e. there will not be any uploads or downloads, you don’t need an account on WACS, and you won’t need an email for this section. However, the full power of BTT-Writer is only realized when you upload your work to WACS for safe-keeping.
 
-BTT-Writer can be downloaded from GitHub, at https://github.com/Bible-Translation-Tools/BTT-Writer-Desktop/releases/latest or https://github.com/Bible-Translation-Tools/BTT-Writer-Android/releases/latest.
+BTT-Writer can be downloaded from GitHub, at https://github.com/Bible-Translation-Tools/BTT-Writer-Desktop/releases/latest. If you are using an Android device, the most recent version is in the Google Play Store. (See below.)
 
-BTT-Writer Desktop and BTT-Writer Android work very similarly, but they are completely different programs. Most of this training is oriented towards use of BTT-Writer Desktop (which can be used on any computer that runs a recent version of Windows, macOS, or Linux). Where there are differences for BTT-Writer Android, we will try to make note of them.
+
+BTT-Writer Desktop and BTT-Writer Android work very similarly, but they are completely different programs. Most of this training is oriented towards use of BTT-Writer Desktop (which can be used on any computer that runs a recent version of Windows, macOS, or Linux). Where there are differences for BTT-Writer Android, we will try to make note of them. **If you notice something in the documentation that is different than what is seen on Android, please contact the Help Desk.**
 
 Every current version of BTT-Writer (including for Android) is available for download from Basic Translation Tools https://basictranslationtools.org.
 
@@ -39,15 +42,27 @@ Installing BTT-Writer on PC
 ===========================
 
 There are several different versions of BTT-Writer available. BTT-Writer has versions for Linux, for macOS, and for Windows. In addition, the Windows version comes in both 32-bit and 64-bit versions. Most Windows computers sold in the last 5 years are 64-bit.
+
  - Installing on Linux https://youtu.be/8cj7Iwwc20c
+
+    .. image:: ../images/linux-install-video.*
+        :width: 0.75in
+
  - Installing on macOS https://youtu.be/Z2mv1uIAE6o
+
+    .. image:: ../images/macos-install-video.*
+        :width: 0.75in
+
+
  - Installing on Windows https://youtu.be/UbX-MIRks6c
 
+    .. image:: ../images/windows-install-video.*
+        :width: 0.75in
 
 Git
 ---
 
-The Windows installer installs git along with BTT-Writer. For Linux and macOS, you will need to install it separately. For macOS we recommend the open-source git-scm available from https://sourceforge.net/projects/git-osx-installer/. You can use Apple’s version of git, but the download is over 2GB, so unless you have that kind of data, it’s better to use git-scm if you can.
+The Windows installer installs git along with BTT-Writer. For Linux and macOS, you will need to install it separately. For macOS we recommend the open-source git-scm available from https://sourceforge.net/projects/git-osx-installer/. You can use Apple’s version of git, but the download is over 2GB, so unless you have that kind of data, it’s better to use git-scm if you can. The version of git-scm is `2.33.0` as of the writing of this manual, and it works on both Intel and Apple Silicon computers.
 
 For versions of BTT-Writer before 1.4.0, macOS and Linux also need a custom .ssh/config file. **Updating to the latest version fixes this requirement.**
 
@@ -70,7 +85,7 @@ You can also download an **.apk** of the program that can be manually installed 
 
 Because of changes required by Google, the new version of BTT-Writer will not automatically see your old projects — they must be imported. Also, if your Android device becomes inoperable, there will be no way to recover the translation data. It is no longer in an easy-to-access place. Look at the section on :ref:`Exporting<Exporting>` to learn how to upload to WACS.
 
-There is no version of BTT-Writer for iOS (iPhone or iPad).
+**There is no version of BTT-Writer for iOS (iPhone or iPad).**
 
 .. admonition:: Lab 13: BTT-Writer Android
 
@@ -90,7 +105,7 @@ Please note that if you live in a place where your work is dangerous or illegal 
 
 We also have a newsletter that you can subscribe to where we mention new releases of BTT-Writer, and they are also mentioned in the Telegram channel.
 
-BTT-Writer for Android will notify you like all other Android updates when one is available, if you install from the Google Play Store.
+**BTT-Writer for Android will notify you like all other Android updates when one is available, if you install from the Google Play Store.**
 
 .. admonition:: Lab 14: Updates
 
