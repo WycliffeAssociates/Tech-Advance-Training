@@ -132,12 +132,14 @@ Finally, we have an active help community on Telegram[^2]
 “Logging In” to BTT-Writer
 **************************
 
+.. image:: ./images/login-en.*
+
 -  If you have already created an account on WACS, use the first option.
 -  If you have not yet created an account on WACS, use the second option. Creating an account on WACS is explained :ref:`here<WACS>`
 
 |wifi| Both of these options require an Internet connection, and will connect you to bibletranslationtools.org. If you need to hide this connection, be sure to connect a VPN before using one of these options.
 
-The third option can be used if there is no Internet available, but should always be temporary. For example, you can use it for a typist that you will collect the typing from manually, or if you are away from Internet temporarily. You should always log out before letting someone else use your computer. This allows them to enter their name into the “Contributors” of the project they work on, and keeps it straight where a project will be uploaded. It also protects your account from unauthorized uploads.
+- The third option can be used if there is no Internet available, but should always be temporary. For example, you can use it for a typist that you will collect the typing from manually, or if you are away from Internet temporarily. You should always log out before letting someone else use your computer. This allows them to enter their name into the “Contributors” of the project they work on, and keeps it straight where a project will be uploaded. It also protects your account from unauthorized uploads.
 
 .. admonition:: Lab 16: “Logging In” to BTT-Writer
 
@@ -231,7 +233,7 @@ BTT-Writer Home Screen
 .. image:: ../images/home-en.*
     :alt: Home Screen Image
     
-① Logout is only used when a different translator is going to use the program, or to switch between on-line and off-line use. You do not need to log out to use the program off-line.
+① Logout is only used when a different translator is going to use the program, or to switch between on-line and off-line use. **You do not need to log out to use the program off-line.**
 
 ② Create a new project by clicking either the green button at the top right, or the Start a New Project button.
 
