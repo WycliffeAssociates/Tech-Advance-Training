@@ -45,7 +45,7 @@ There are several different versions of BTT-Writer available. BTT-Writer has ver
 
  - Installing on Linux https://youtu.be/8cj7Iwwc20c
 
-.. image:: ../images/linux-install-video.*
+- .. image:: ../images/linux-install-video.*
     :width: 0.75in
 
  - Installing on macOS https://youtu.be/Z2mv1uIAE6o
@@ -62,7 +62,7 @@ There are several different versions of BTT-Writer available. BTT-Writer has ver
 Git
 ---
 
-The Windows installer installs git along with BTT-Writer. For Linux and macOS, you will need to install it separately. For macOS we recommend the open-source git-scm available from https://sourceforge.net/projects/git-osx-installer/. You can use Apple’s version of git, but the download is over 2GB, so unless you have that kind of data, it’s better to use git-scm if you can. The version of git-scm is `2.33.0` as of the writing of this manual, and it works on both Intel and Apple Silicon computers.
+The Windows installer installs git along with BTT-Writer. For Linux and macOS, you will need to install it separately. For macOS we recommend the open-source `git-scm` available from https://sourceforge.net/projects/git-osx-installer/. You can use Apple’s version of git, but the download is over 2GB, so unless you have that kind of data, it’s better to use `git-scm` if you can. The version of `git-scm` is `2.33.0` as of the writing of this manual, and it works on both Intel and Apple Silicon computers.
 
 For versions of BTT-Writer before 1.4.0, macOS and Linux also need a custom .ssh/config file. **Updating to the latest version fixes this requirement.**
 
