@@ -57,7 +57,7 @@ Communication
 -------------
 The best way to communicate with us is by email.
 
-.. figure:: ../images/helpdesk-email.*
+.. figure:: images/helpdesk-email.*
     :align: right
     :alt: QR Code for help desk email
     :width: 100px
@@ -66,7 +66,7 @@ The best way to communicate with us is by email.
 
 1. You can ask questions and report problems to helpdesk@techadvancement.com
 
-.. figure:: ../images/Telegram-join.*
+.. figure:: images/Telegram-join.*
     :align: left
     :alt: QR Code for Telegram chat link
     :width: 100px
@@ -75,7 +75,7 @@ The best way to communicate with us is by email.
 
 2. If text messaging is more your speed, you can contact us on Telegram: https://t.me/joinchat/Gkxa1q-oHBEYEjPQ
 
-.. figure:: ../images/techadvancement-url.*
+.. figure:: images/techadvancement-url.*
     :align: right
     :alt: QR Code for TechAdvancement
     :width: 100px
@@ -84,7 +84,7 @@ The best way to communicate with us is by email.
 
 3. We have help articles, links, and more at our website: https://techadvancement.com/
 
-.. figure:: ../images/tech-advance-newsletter.*
+.. figure:: images/tech-advance-newsletter.*
     :align: left
     :alt: QR Code for Tech Advancement Newsletter
     :width: 100px

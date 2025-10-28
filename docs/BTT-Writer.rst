@@ -1,11 +1,11 @@
-.. |my-hamburger| image:: ../images/hamburger.*
+.. |my-hamburger| image:: images/hamburger.*
     :height: 14pt
 
-.. |wifi| image:: ../images/network.*
+.. |wifi| image:: images/network.*
     :height: 14pt
     :width: 14pt
 
-.. |ellipsis-v| image:: ../images/ellipsis-v.*
+.. |ellipsis-v| image:: images/ellipsis-v.*
     :height: 14pt
 
 ##########
@@ -44,18 +44,18 @@ Installing BTT-Writer on PC
 There are several different versions of BTT-Writer available. BTT-Writer has versions for Linux, for macOS, and for Windows. In addition, the Windows version comes in both 32-bit and 64-bit versions. Most Windows computers sold in the last 5 years are 64-bit.
 
  - Installing on Linux https://youtu.be/8cj7Iwwc20c
-  .. image:: ../images/linux-install-video.*
+  .. image:: images/linux-install-video.*
     :width: 0.75in
 
  - Installing on macOS https://youtu.be/Z2mv1uIAE6o
 
-  .. image:: ../images/macos-install-video.*
+  .. image:: images/macos-install-video.*
       :width: 0.75in
 
 
  - Installing on Windows https://youtu.be/UbX-MIRks6c
 
-  .. image:: ../images/windows-install-video.*
+  .. image:: images/windows-install-video.*
       :width: 0.75in
 
 Git
@@ -77,7 +77,7 @@ Installing BTT-Writer for Android
 
 Starting with **Version 1.5.1**, BTT-Writer Android is again available on the Google Play Store. You can find it by searching for BTT-Writer, or you can use this link: https://play.google.com/store/apps/details?id=org.bibletranslationtools.writer.android
 
-.. image:: ../images/writer-android-install-link.*
+.. image:: images/writer-android-install-link.*
     :width: 0.75in
 
 You can also download an **.apk** of the program that can be manually installed on an Android device. That is available here: https://github.com/Bible-Translation-Tools/BTT-Writer-Android/releases/latest or at **Basic Translation Tools** https://BasicTranslationTools.org
@@ -229,7 +229,7 @@ Clear translations will use whatever language structures are needed to help read
 BTT-Writer Home Screen
 **********************
 
-.. image:: ../images/home-en.*
+.. image:: images/home-en.*
     :alt: Home Screen Image
     
 ① Logout is only used when a different translator is going to use the program, or to switch between on-line and off-line use. **You do not need to log out to use the program off-line.**
@@ -253,7 +253,7 @@ Occasionally, BTT-Writer will get confused about whether you’re logged in to W
 Hamburger Menu (3 Dots) on Home Screen
 ======================================
 
-.. image:: ../images/home-menu-en.*
+.. image:: images/home-menu-en.*
     :align: left
 
 - **Update** allows you to check for updates to Source Texts and Target Language Codes.
@@ -278,7 +278,7 @@ Hamburger Menu (3 Dots) on Home Screen
 Update
 ------
 
-.. image:: ../images/update-menu-en.*
+.. image:: images/update-menu-en.*
     :align: right
 
 - **Update List of Available Source Texts**
@@ -323,15 +323,15 @@ It can be helpful to ask this question before going to the translation event.
 Update List of Available Sources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: ../images/update-list-sources-en.*
+.. image:: images/update-list-sources-en.*
 
 Updating Source Texts (GL) is a two-step process. It is not usually a good idea to change the content of the source text while translation is happening. (It makes it difficult to check.) Therefore, the first part of the update is to see what updates are available.
 
-.. image:: ../images/no-new-sources-en.*
+.. image:: images/no-new-sources-en.*
     :align: left
     :width: 45%
 
-.. image:: ../images/132-new-sources-en.*
+.. image:: images/132-new-sources-en.*
     :align: right
     :width: 45%
 
@@ -349,16 +349,16 @@ If you choose Download Available Source Texts from the Hamburger Menu, you can s
 
 Download Available Source Texts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. image:: ../images/select-source-language-en.*
+.. image:: images/select-source-language-en.*
 
 When updating Sources from the Hamburger Menu |ellipsis-v|, you are first asked to choose a language for the updates. Then, choose the Testament that you want to update. **Other** allows you to update translationWords, which is a resource for the whole Bible.
 
-.. image:: ../images/select-testament-en.*
+.. image:: images/select-testament-en.*
     :align: center
 
 Within a Testament, you can choose individual books. Please note that this is by language, not by text. As a result, you can choose from multiple sources. Here, you can see both the **Unlocked Literal Bible (ULB)** and the **Unlocked Dynamic Bible (UDB)**. In Arabic, we have both the **Ketab El Hayat** and the **Van Dyke** translation available.
 
-.. image:: ../images/select-book-version-en.*
+.. image:: images/select-book-version-en.*
     :align: center
 
 |wifi| **All updates**, whether using the green arrow or the **Updates Sources** menu, use an Internet connection, will use Internet data, and will make a connection to bibletranslationtools.org. If it’s dangerous for you to visit that site, please use a VPN before updating the sources in BTT-Writer.
@@ -406,7 +406,7 @@ You will be notified whether language codes have been added or not.
 
 Target language codes are updated very often, and it is much more likely that you will need to update target codes than source texts.
 
-.. image:: ../images/target-added-en.*
+.. image:: images/target-added-en.*
     :align: center
 
 .. admonition:: Lab 26: Updating Target Languages
@@ -418,7 +418,7 @@ Target language codes are updated very often, and it is much more likely that yo
 Import
 ------
 
-.. image:: ../images/import-menu-en.*
+.. image:: images/import-menu-en.*
     :align: left
 
 **Imports** are done from the Import menu on the Home Screen. *This menu is not available while editing a project.*
@@ -442,7 +442,7 @@ Import
 Import from Server
 ^^^^^^^^^^^^^^^^^^
 
-.. image:: ../images/import-from-server-en.*
+.. image:: images/import-from-server-en.*
     :align: center
 
 Import from Server will allow you to search the server for a project by User Name and/or by project name (here called “Book or Language”). On PC, *if you are logged in to WACS*, your user name will be filled in on the left side, and projects from your WACS account will fill in below. If you have many projects in your account, it will take some time before changes made to user name or book or language will be reflected. This is especially true if you have slow Internet. On Android, your user name is not filled in automatically.
@@ -485,7 +485,7 @@ The three elements of a project are
 
 With Bible translation, there are **66** different Projects (for the 66 books), **3** Types (Regular Text, ULB, & UDB), and many different language codes.
 
-.. image:: ../images/three-project-elements-en.*
+.. image:: images/three-project-elements-en.*
     :align: center
 
 In the above example, the **Project Name** (3 John) is the same, and the **Language Code** is the same (Icelandic Sign Language: `icl`), but the **Type** is different (one is **reg** `Text`, and the other is **ULB**). They are considered *different* projects.
@@ -543,7 +543,7 @@ translationAcademy
 Feedback
 --------
 
-.. image:: ../images/feedback-form-en.*
+.. image:: images/feedback-form-en.*
 
 When you use the Feedback option on the menu, an **Issue** [#github_issue]_ will be created on GitHub for you. This issue will contain any text you type in the box, and also the contents of the *log file* that BTT-Writer keeps. This log file may contain useful information (like error messages) that will help us to understand and correct the problem. It may also contain your username, which will allow us to reply to you. However, if the log file does *not* contain any of your user information, you will not receive a response from us, because the Feedback is otherwise anonymous. If you want to receive a reply, be sure to include your email address in the Feedback text you enter in the box.
 
@@ -560,7 +560,7 @@ Settings
 Interface Language & Basic Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: ../images/settings-1-en.*
+.. image:: images/settings-1-en.*
     :align: center
 
 The first three options in Settings are for the general operation of BTT-Writer.
@@ -568,7 +568,7 @@ The first three options in Settings are for the general operation of BTT-Writer.
 ① Starting in version 1.4.0, BTT-Writer is able to work in different languages.
     BTT-Writer (Desktop) is able to work in English, French, Spanish, Portuguese, Farsi, and Russian.
 
-.. image:: ../images/crowdin.*
+.. image:: images/crowdin.*
     :width: 0.75in
     :align: right
 
@@ -592,7 +592,7 @@ We are not yet done. Now that the program has been changed, we will need people 
 Fonts and Colors
 ^^^^^^^^^^^^^^^^
 
-.. image:: ../images/settings-2-en.*
+.. image:: images/settings-2-en.*
     :align: center
 
 BTT-Writer supports light and dark mode Color Themes. If you select **System**, it will follow the light or dark theme of your operating system. ① You can set the **font** and **font size** for the **Target Translation** and ② have a different **font** and **size** for the **Source Text**. Some languages use a writing style that has the same letters as another, but is more readable in a different font, or at a different size. You can download fonts to your computer and use them in BTT-Writer, but **Android** requires a special build of the program to use a font that’s not part of the Android system.
@@ -613,7 +613,7 @@ If you need a special font when displaying a translation on BIEL, a special chan
 Backups and File Locations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: ../images/settings-3-en.*
+.. image:: images/settings-3-en.*
 
 ① BTT-Writer automatically makes a backup every 5 minutes of the active project. It is saved to this location in a subfolder called *automatic_backups*. Backups are also made of every project when BTT-Writer first starts. If a project is broken and can’t be normally backed up, a zip file will be made of it and placed in the **automatic_backups** folder. (These are the folder names on Desktop. Android has special limitations, which can be discussed separately.)
 
@@ -659,7 +659,7 @@ Finally, **Developer Tools** (on Desktop) will open another window on your scree
 A Final Word About Language Codes
 =================================
 
-.. image:: ../images/french-codes.*
+.. image:: images/french-codes.*
     :align: right
 
 Language codes are either set by an International Standards Organization (codes like ``zh``, ``en``, or ``pt-br``) or by language researchers. Once a code is set for a language it should not be changed. The code is needed to uniquely identify the language. It is not intended to be the same as what the people call their language. In this example, Modern French uses the French name for the language, **français**, including the lower case first letter.

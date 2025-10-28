@@ -2,7 +2,7 @@
 PORT ↔ BIEL ↔ WACS
 ##################
 
-.. |content-copy| image:: ../images/content_copy.*
+.. |content-copy| image:: images/content_copy.*
 
 There are three websites or Internet services used with our translation tools. The acronyms, or short forms, of these sites are PORT, BIEL, and WACS.
 
@@ -10,7 +10,7 @@ There are three websites or Internet services used with our translation tools. T
 PORT
 ****
 
-.. image:: ../images/PORT.*
+.. image:: images/PORT.*
     :alt: Image of PORT website
 
 PORT is an online database used by Translation Services to keep track of translation projects. PORT automatically reads uploads to WACS and checks them for completion status.
@@ -105,7 +105,7 @@ Using WACS
 
 WACS is a very useful tool, and can answer many questions about a translation project.
 
-.. image:: ../images/WACS_home.webp
+.. image:: images/WACS_home.webp
     :alt: Image of WACS Homescreen
 
 On this screen are several controls, but most of them are duplicates.
@@ -127,7 +127,7 @@ Explore
 
  When you *Explore* WACS, you don't need to be signed in. Anyone in the world can do this.
 
- .. image:: ../images/Explore.webp
+ .. image:: images/Explore.webp
     :alt: Image of Explore page
 
 You'll notice that you can still click in the top bar to go to Bible in Every Language, the Help Desk, Register, or Sign In.
@@ -150,7 +150,7 @@ Where is my Upload?
 
 When you upload from BTT-Writer, you will get a notification of success that looks like this:
 
-.. image:: ../images/upload-complete-en.*
+.. image:: images/upload-complete-en.*
 
 Looking at this image, we can see:
 
@@ -158,7 +158,7 @@ Looking at this image, we can see:
 
     ② Clicking on **READ ON WEB** will open the project in the Web Reader.
 
-.. image:: ../images/online-project-wacs-en.*
+.. image:: images/online-project-wacs-en.*
 
 If you go to the project online, you'll see something like this.
 
@@ -197,7 +197,7 @@ If a project has been uploaded from **BTT-Writer** and can be seen on **WACS**, 
 
 3. If the project can be found in WACS, and has the correct language code, it may have been marked **Inactive** in PORT. This is something a Manager can do, and can correct. Once a project has been marked *Inactive* it will not show up in the report in PORT unless **Inactive Translation Repos** are shown, or its status is changed back to **Active**.
 
-.. image:: ../images/inactive-translations.*
+.. image:: images/inactive-translations.*
 
 4. Finally, it's possible that the overnight job experienced a problem in copying the information from WACS to PORT. While this is rare, it does sometimes happen, and when it does you will need to contact the help desk to have the problem resolved.
 
