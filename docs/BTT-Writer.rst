@@ -44,8 +44,8 @@ Installing BTT-Writer on PC
 There are several different versions of BTT-Writer available. BTT-Writer has versions for Linux, for macOS, and for Windows. In addition, the Windows version comes in both 32-bit and 64-bit versions. Most Windows computers sold in the last 5 years are 64-bit.
 
  - Installing on Linux https://youtu.be/8cj7Iwwc20c
-  .. image:: ../images/linux-install-video.*
-    :width: 0.75in
+.. image:: ../images/linux-install-video.*
+  :width: 0.75in
 
  - Installing on macOS https://youtu.be/Z2mv1uIAE6o
 
