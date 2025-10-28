@@ -45,8 +45,8 @@ There are several different versions of BTT-Writer available. BTT-Writer has ver
 
  - Installing on Linux https://youtu.be/8cj7Iwwc20c
 
-  .. image:: ../images/linux-install-video.*
-      :width: 0.75in
+.. image:: ../images/linux-install-video.*
+    :width: 0.75in
 
  - Installing on macOS https://youtu.be/Z2mv1uIAE6o
 
