@@ -56,3 +56,4 @@ Contents:
    Orature Recording Modes - Narration
    Edit Verse Markers
    Recording and Editing Audio
+   advanced

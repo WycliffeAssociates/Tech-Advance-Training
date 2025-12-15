@@ -625,6 +625,15 @@ When you export a project, it will default to this location, sometimes in a back
 
 ④ This may be the most important item. BTT-Writer stores its working files in the **Data Path**. This is sometimes called the “happy path”.
 
+.. _datapath:
+
+**Data Path**
+"""""""""""""
+The Data Path contains some very important files for the functioning of BTT-Writer. The ones we are concerned with are the **library** directory and the **targetTranslations** directory.
+
+- The **library** directory contains the **`index.sqlite`** file that stores all of the information about Source Languages and Target Language Codes. It also contains the **`resource_containers`** directory where the Source Language files are stored. The :ref:`Advanced Topics` section will tell you more about this.
+- The **targetTranslations** directory contains the translation projects that appear in BTT-Writer's home screen. There is more information about this in :ref:`Advanced Topics` as well.
+
 ⑤ Under **Legal** are copies of the **License Agreement**, **Translation Guidelines**, and **Statement of Faith** that were agreed to when the user logged in.
 
 Under **Software Licenses** are the licenses for the various different software programs that are used together to make BTT-Writer.
