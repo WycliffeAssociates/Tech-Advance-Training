@@ -275,6 +275,117 @@ Hamburger Menu (3 Dots) on Home Screen
 
    5. Which option would you choose to get a new language code?
 
+Settings
+--------
+
+Interface Language & Basic Settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: images/settings-1-en.*
+    :align: center
+
+The first three options in Settings are for the general operation of BTT-Writer.
+
+① Starting in version 1.4.0, BTT-Writer is able to work in different languages.
+    BTT-Writer (Desktop) is able to work in English, French, Spanish, Portuguese, Farsi, and Russian.
+
+.. image:: images/crowdin.*
+    :width: 0.75in
+    :align: right
+
+Unfortunately, BTT-Writer (or its ancestor, translationStudio) was not designed to be multi-lingual. This was very difficult to correct, and we have only recently finished changing the program to allow for different languages.
+We are not yet done. Now that the program has been changed, we will need people to create the translations of the interface. For this, we use a site called CrowdIn (https://crowdin.com). If you are interested in helping us to put BTT-Writer’s menus in your language, contact helpdesk@techadvancement.com.
+
+② **Gateway Language Mode** is only for making resources for GL translations. If you don’t know that you are working on a GL project, turn this off.
+③ **Blind Edit Mode** enables additional features in BTT-Writer that support the Eight Step methodology. This should normally be on.
+
+.. admonition:: Lab 44: Settings Lab 1
+
+    1. For most projects, should Gateway Language Mode be on or off?
+    2. For most projects, should Blind Edit Mode be on or off?
+    3. How can you change the language that BTT-Writer uses for its interface?https://www.sphinx-doc.org/en/master/man/sphinx-build.html
+    4. What can you do if your language isn’t yet available?
+    5. Make sure that Gateway Language mode is off in your copy of BTT-Writer (unless you are working with a Gateway Language project).
+    6. Make sure that Blind Edit Mode is on in your copy of BTT-Writer.
+    7. If English isn’t your preferred language, look to see if BTT-Writer has your language available.
+
+
+Fonts and Colors
+^^^^^^^^^^^^^^^^
+
+.. image:: images/settings-2-en.*
+    :align: center
+
+BTT-Writer supports light and dark mode Color Themes. If you select **System**, it will follow the light or dark theme of your operating system. ① You can set the **font** and **font size** for the **Target Translation** and ② have a different **font** and **size** for the **Source Text**. Some languages use a writing style that has the same letters as another, but is more readable in a different font, or at a different size. You can download fonts to your computer and use them in BTT-Writer, but **Android** requires a special build of the program to use a font that’s not part of the Android system.
+
+If you need a special font when displaying a translation on BIEL, a special change needs to be made to the repository for that book. That’s an advanced topic that we’ll discuss later.
+
+.. admonition:: Lab 29: Settings Part 2
+
+    1. What options are available for Color Themes?
+
+    2. What options are available for changing the fonts in BTT-Writer?
+
+    3. What needs to be done to have a custom font in BTT-Writer for Android?
+
+    4. Experiment in your copy of BTT-Writer with different color themes and font settings.
+
+
+Backups and File Locations
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: images/settings-3-en.*
+
+① BTT-Writer automatically makes a backup every 5 minutes of the active project. It is saved to this location in a subfolder called *automatic_backups*. Backups are also made of every project when BTT-Writer first starts. If a project is broken and can’t be normally backed up, a zip file will be made of it and placed in the **automatic_backups** folder. (These are the folder names on Desktop. Android has special limitations, which can be discussed separately.)
+
+When you export a project, it will default to this location, sometimes in a backups folder here.
+
+② If you have problems with your BTT-Writer, we will ask you what **version** you are using. That information can be found here. (It’s also displayed when BTT-Writer first starts.) When a new version comes out, you can check to see if you are up to date.
+
+③ The **git** version is also important, but we don’t ask for it as often.
+
+④ This may be the most important item. BTT-Writer stores its working files in the **Data Path**. This is sometimes called the “happy path”.
+
+.. _datapath:
+
+**Data Path**
+"""""""""""""
+The Data Path contains some very important files for the functioning of BTT-Writer. The ones we are concerned with are the **library** directory and the **targetTranslations** directory.
+
+- The **library** directory contains the **`index.sqlite`** file that stores all of the information about Source Languages and Target Language Codes. It also contains the **`resource_containers`** directory where the Source Language files are stored. The :ref:`Advanced Topics` section will tell you more about this.
+- The **targetTranslations** directory contains the translation projects that appear in BTT-Writer's home screen. There is more information about this in :ref:`Advanced Topics` as well.
+
+⑤ Under **Legal** are copies of the **License Agreement**, **Translation Guidelines**, and **Statement of Faith** that were agreed to when the user logged in.
+
+Under **Software Licenses** are the licenses for the various different software programs that are used together to make BTT-Writer.
+
+.. admonition:: Lab 30: Settings Part 3
+
+  1. If you save a file or export something, where should you look for it?
+
+  2. If you want to find the automatic backup made of your project, where should you look?
+
+  3. If you think a project is damaged, where should you look?
+
+  4. If you want to see the working files being used by BTT-Writer, where should you look?
+
+  5. How can you find the version of BTT-Writer you are using?
+
+Advanced Settings
+^^^^^^^^^^^^^^^^^
+
+The **Advanced Settings** nearly all concern the |wifi| Internet servers used by BTT-Writer.
+
+ - The **Server Suite** lets you switch all of the settings from WACS-facing to DCS-facing. DCS was a server that we previously used. We no longer use DCS.
+ - The **Data Server** is WACS – where your data will be stored, and where you download *from* when you :ref:`Import from Server<Import from Server>`.
+ - The **Media Server** is used under the hood by the program.
+ - The **Reader Server** is where you will be able to read uploaded projects in a *presentation* format.
+ - The **Create Account URL** is the address where :ref:`WACS<WACS>` accounts can be created.
+ - The **Languages URL** is where the list of :ref:`Available Target Languages<Update List of Available Target Languages>` comes from.
+ - The **Index.sqlite URL** is the address from which a complete `index.sqlite` file can be downloaded.
+
+Finally, **Developer Tools** (on Desktop) will open another window on your screen showing debug information about BTT-Writer. A technician can sometimes use this information to fix a problem.
+
 Update
 ------
 
@@ -552,118 +663,6 @@ When you use the Feedback option on the menu, an **Issue** [#github_issue]_ will
 Logout
 ------
 The **Logout** option does the same thing as the :ref:`Logout<BTT-Writer Home Screen>` option next to your username at the top of the screen.
-
-
-Settings
---------
-
-Interface Language & Basic Settings
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. image:: images/settings-1-en.*
-    :align: center
-
-The first three options in Settings are for the general operation of BTT-Writer.
-
-① Starting in version 1.4.0, BTT-Writer is able to work in different languages.
-    BTT-Writer (Desktop) is able to work in English, French, Spanish, Portuguese, Farsi, and Russian.
-
-.. image:: images/crowdin.*
-    :width: 0.75in
-    :align: right
-
-Unfortunately, BTT-Writer (or its ancestor, translationStudio) was not designed to be multi-lingual. This was very difficult to correct, and we have only recently finished changing the program to allow for different languages.
-We are not yet done. Now that the program has been changed, we will need people to create the translations of the interface. For this, we use a site called CrowdIn (https://crowdin.com). If you are interested in helping us to put BTT-Writer’s menus in your language, contact helpdesk@techadvancement.com.
-
-② **Gateway Language Mode** is only for making resources for GL translations. If you don’t know that you are working on a GL project, turn this off.
-③ **Blind Edit Mode** enables additional features in BTT-Writer that support the Eight Step methodology. This should normally be on.
-
-.. admonition:: Lab 44: Settings Lab 1
-
-    1. For most projects, should Gateway Language Mode be on or off?
-    2. For most projects, should Blind Edit Mode be on or off?
-    3. How can you change the language that BTT-Writer uses for its interface?https://www.sphinx-doc.org/en/master/man/sphinx-build.html
-    4. What can you do if your language isn’t yet available?
-    5. Make sure that Gateway Language mode is off in your copy of BTT-Writer (unless you are working with a Gateway Language project).
-    6. Make sure that Blind Edit Mode is on in your copy of BTT-Writer.
-    7. If English isn’t your preferred language, look to see if BTT-Writer has your language available.
-
-
-Fonts and Colors
-^^^^^^^^^^^^^^^^
-
-.. image:: images/settings-2-en.*
-    :align: center
-
-BTT-Writer supports light and dark mode Color Themes. If you select **System**, it will follow the light or dark theme of your operating system. ① You can set the **font** and **font size** for the **Target Translation** and ② have a different **font** and **size** for the **Source Text**. Some languages use a writing style that has the same letters as another, but is more readable in a different font, or at a different size. You can download fonts to your computer and use them in BTT-Writer, but **Android** requires a special build of the program to use a font that’s not part of the Android system.
-
-If you need a special font when displaying a translation on BIEL, a special change needs to be made to the repository for that book. That’s an advanced topic that we’ll discuss later.
-
-.. admonition:: Lab 29: Settings Part 2
-
-    1. What options are available for Color Themes?
-
-    2. What options are available for changing the fonts in BTT-Writer?
-
-    3. What needs to be done to have a custom font in BTT-Writer for Android?
-
-    4. Experiment in your copy of BTT-Writer with different color themes and font settings.
-
-
-Backups and File Locations
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. image:: images/settings-3-en.*
-
-① BTT-Writer automatically makes a backup every 5 minutes of the active project. It is saved to this location in a subfolder called *automatic_backups*. Backups are also made of every project when BTT-Writer first starts. If a project is broken and can’t be normally backed up, a zip file will be made of it and placed in the **automatic_backups** folder. (These are the folder names on Desktop. Android has special limitations, which can be discussed separately.)
-
-When you export a project, it will default to this location, sometimes in a backups folder here.
-
-② If you have problems with your BTT-Writer, we will ask you what **version** you are using. That information can be found here. (It’s also displayed when BTT-Writer first starts.) When a new version comes out, you can check to see if you are up to date.
-
-③ The **git** version is also important, but we don’t ask for it as often.
-
-④ This may be the most important item. BTT-Writer stores its working files in the **Data Path**. This is sometimes called the “happy path”.
-
-.. _datapath:
-
-**Data Path**
-"""""""""""""
-The Data Path contains some very important files for the functioning of BTT-Writer. The ones we are concerned with are the **library** directory and the **targetTranslations** directory.
-
-- The **library** directory contains the **`index.sqlite`** file that stores all of the information about Source Languages and Target Language Codes. It also contains the **`resource_containers`** directory where the Source Language files are stored. The :ref:`Advanced Topics` section will tell you more about this.
-- The **targetTranslations** directory contains the translation projects that appear in BTT-Writer's home screen. There is more information about this in :ref:`Advanced Topics` as well.
-
-⑤ Under **Legal** are copies of the **License Agreement**, **Translation Guidelines**, and **Statement of Faith** that were agreed to when the user logged in.
-
-Under **Software Licenses** are the licenses for the various different software programs that are used together to make BTT-Writer.
-
-.. admonition:: Lab 30: Settings Part 3
-
-  1. If you save a file or export something, where should you look for it?
-
-  2. If you want to find the automatic backup made of your project, where should you look?
-
-  3. If you think a project is damaged, where should you look?
-
-  4. If you want to see the working files being used by BTT-Writer, where should you look?
-
-  5. How can you find the version of BTT-Writer you are using?
-
-Advanced Settings
-^^^^^^^^^^^^^^^^^
-
-The **Advanced Settings** nearly all concern the |wifi| Internet servers used by BTT-Writer.
-
- - The **Server Suite** lets you switch all of the settings from WACS-facing to DCS-facing. DCS was a server that we previously used. We no longer use DCS.
- - The **Data Server** is WACS – where your data will be stored, and where you download *from* when you :ref:`Import from Server<Import from Server>`.
- - The **Media Server** is used under the hood by the program.
- - The **Reader Server** is where you will be able to read uploaded projects in a *presentation* format.
- - The **Create Account URL** is the address where :ref:`WACS<WACS>` accounts can be created.
- - The **Languages URL** is where the list of :ref:`Available Target Languages<Update List of Available Target Languages>` comes from.
- - The **Index.sqlite URL** is the address from which a complete `index.sqlite` file can be downloaded.
-
-Finally, **Developer Tools** (on Desktop) will open another window on your screen showing debug information about BTT-Writer. A technician can sometimes use this information to fix a problem.
 
 A Final Word About Language Codes
 =================================
