@@ -212,12 +212,17 @@ Clear translations will use whatever language structures are needed to help read
 
 1. A clear translation may use as many or as few terms as necessary to communicate the original meaning as clearly as possible.
 2. Making a clear translation does not mean that the translator clarifies something that is ambiguous in the source text.
-3. Making a clear translation does not mean that the translator gives the reader a specific interpretation for every passage where meaning is genuinely debated. ### Natural Natural translations use language forms that are reflect the way the target language is used in corresponding contexts.
-4. Natural Bible translations sound like they were produced by an adult native speaker who speaks and/or writes well.
-5. A natural Bible translation does not use expressions that are particular to their own culture in order to make the translation appear natural.
-6. It is more important for a portion of Scripture to be translated accurately than for it to sound perfectly natural to everyone who reads it. We believe that a translation has the highest likelihood of being good quality when after applying the guidelines above, the following are completed:
-7. It is tested and approved by believers of the language community and their church leaders.
-8. Ongoing revisions and improvements are made.
+3. Making a clear translation does not mean that the translator gives the reader a specific interpretation for every passage where meaning is genuinely debated.
+
+Natural
+-------
+
+Natural translations use language forms that are reflect the way the target language is used in corresponding contexts.
+1. Natural Bible translations sound like they were produced by an adult native speaker who speaks and/or writes well.
+2. A natural Bible translation does not use expressions that are particular to their own culture in order to make the translation appear natural.
+3. It is more important for a portion of Scripture to be translated accurately than for it to sound perfectly natural to everyone who reads it. We believe that a translation has the highest likelihood of being good quality when after applying the guidelines above, the following are completed:
+4. It is tested and approved by believers of the language community and their church leaders.
+5. Ongoing revisions and improvements are made.
 
 .. admonition:: Lab 18: Translation Guidelines
 
